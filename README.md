@@ -1,4 +1,4 @@
-![Potada de repositorio HTML](./cover-html.webp)
+![Portada de repositorio HTML](./cover-html.webp)
 
 # HTML
 
