@@ -1,0 +1,59 @@
+<!--
+
+    Formularios
+
+    Son elementos que permiten al ususario colocar informacion.
+
+    Para el contenedor de formulario se usa:
+
+    <form>...</form>
+
+    Dentro de este contenedor podemos colocar los campos (fields) y etiqueta (labels)
+
+    <input /> : campo de acceso de una informacion. Son elementos self-closing. Y hay diferentes tipos: texto, boton, checkbox, etc.
+
+    <label>...</label> : estas etiquetas se asocian a un input.
+
+    Parametros
+
+    Para label:
+    - for: indica la relacion con el input.
+
+    Para input:
+    - type: el tipo de campo
+    - name: el nombre del campo con el que se relaciona el label.
+    - placeholder: texto que funciona como pista o "hint" para el ususario. 
+    - id: identificador para programar y validar el formulario.
+
+    Otros elementos que se usan en el formulario:
+
+    <textarea>...</textarea> : campo de texto multilinea.
+    <select>...</select> : campo de seleccion de opciones.
+    <option>...</option> : opciones dentro del select.
+    <button>...</button> : boton para enviar el los datos hacia el formulario.
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    <h1>Formularios</h1>
+
+    <form>
+        <label for="Josu">Nombre:</label>
+        <input type="text" name="Josu" placeholder="Escribele pai"/>
+        <textarea name="" id="" ></textarea>
+        <select name="" id="">
+            <option value="">Opcion 1</option>
+            <option value="">Opcion 2</option>
+            <option value="">Opcion 3</option>
+        </select>
+        <button type="submit">Enviar</button>
+    </form>
+<body>
+</html>
