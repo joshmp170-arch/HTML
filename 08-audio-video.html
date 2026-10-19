@@ -1,0 +1,49 @@
+<!--
+
+Estas etiquetas nos permiten insertar contenido multimedia
+
+<audio>...</audio>
+<video>...</video>
+
+Parametros
+
+- controls: Muestra los controles de las etiquetas
+- autoplay: Reproduce el contenido de manera automatica
+- loop: repite el contenido en bucle
+- muted: silencia el contenido
+
+Elemento Source
+
+Dentro de las etiquetas <audio> y <video> podemos colocar la etiqueta <source /> para definir el contenido que queremos mostrar. Y a esta etiqueta le pasamos el parametro "src" que recibe como valor la ubicacion del contenido.
+
+
+
+-->
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio y Video</title>
+</head>
+<body>
+    <h1>Audio y Video</h1>
+
+    <h2>Contenido de Audio</h2>
+    <audio controls autoplay muted >
+        <source src="multimedia/empanadas.mp3" />
+    </audio>
+
+    <h2>Contenido de Video</h2>
+    <video controls autoplay muted loop width="1500px" height="1500px">
+        <source src="multimedia/fuego.mp4" />
+        Tu navegador no es compatible con el contendio multimedia. Cambia a un navegador mas moderno.
+    </video>
+
+</body>
+</html>
