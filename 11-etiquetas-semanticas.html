@@ -1,0 +1,85 @@
+<!--
+
+Etiquetas Semanticas
+
+    Las etiquetas semanticas significan un tipo de contenido para el navegador.
+
+    Esto le ayuda al buscador a clasificar la informacion y  mejorar la experiencia del usuario.
+
+    <header>...</header>: Define el encabezado del documento. Generalmente tiene la marca, la navegacion y alguna CTA (Call To Action).
+
+    <nav>...</nav>: Define el conjunto de enlace de navegacion y esta destinada a la navegacion principal.
+
+    <main>...</main>: Define el contenido principal del documento. Solo debe haber un main en el documento.
+
+    <section>...</section>: Define una seccion del documento. Informacion importante y relacionada directamente entre si.
+
+    <article>...</article>: Define un articulo independiente.
+    Informacion que no es tan importante y puede no estar relacionada con el contenido cercano a el.
+
+    <aside>...</aside>: Define un contenido adicional o complementario pero no es el principal.
+
+    <footer>...</footer>: Define el pie de pagina del documento. Enlaces externos, legales, formularios secundarios, mapa de sitio, copyright, etc.
+
+    El buscador de google, aprovecha esta semántica para puntuar mejor los sitios web.
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etiquetas Semanticas</title>
+</head>
+<body>
+
+    <header>
+        Soy el encabezado principal de la pagina.
+        <section>
+            Esto es una seccion dentro del encabezado.
+        </section>
+    </header>
+
+    <section>
+        Esta seccion esta fuera de una etiqueta principal y no es recomendable.
+    </section>
+
+    <main>
+        Soy el contenido principal de la pagina.
+
+        <section>
+            <h2>Productos</h2>
+
+            <article>
+                Producto 1
+            </article>
+
+             <article>
+                Producto 2
+            </article>
+
+             <section>
+        
+            <section>
+            Segunda seccion del main.
+            </section>
+
+            <section>
+            Tercera seccion del main.
+            </section>
+    </main>
+
+    <aside>
+        Soy el contenido adicional o complementario.
+    </aside>
+    
+    <footer>
+        Soy el pie de pagina.
+    </footer>
+
+    <section>
+        Esta seccion esta fuera de una etiqueta principal y no es recomendable. 
+    </section>
+</body>
+</html>
